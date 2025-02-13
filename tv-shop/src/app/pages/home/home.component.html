@@ -1,0 +1,20 @@
+
+<h1>Nos Produits</h1>
+<div class="product-container">
+  <div *ngFor="let product of products" class="product-card">
+
+    <img [src]="product.image | imagePath" alt="{{ product.name }}" class="product-image">
+
+
+    <div class="product-info">
+      <h3>{{ product.name | capitalize }}</h3>
+      <p class="brand-name">Marque : {{ getBrandName(product.brandId) }}</p>
+      <button (click)="goToProductDetail(product.id)">Voir Détails</button>
+    </div>
+  </div>
+</div>
+
+
+<ng-template #noProducts>
+  <p>Aucun produit disponible.</p>
+</ng-template>

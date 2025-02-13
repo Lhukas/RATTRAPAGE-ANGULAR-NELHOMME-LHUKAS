@@ -1,0 +1,122 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "name": "Alice Martin",
+      "email": "alice@example.com",
+      "password": "5678"
+    },
+    {
+      "id": 3,
+      "name": "Marc Dupont",
+      "email": "marc@example.com",
+      "password": "azerty"
+    },
+    {
+      "id": "9d8c",
+      "name": "lhukas nelhomme",
+      "email": "lhukas@gmail.com",
+      "password": "test123"
+    },
+    {
+      "id": "d191",
+      "name": "TEST TEST",
+      "email": "TEST@GMAIL.FR",
+      "password": "testtest"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Télévision LED 42''",
+      "price": 399,
+      "description": "Profitez d'une image Full HD avec cette télévision LED 42 pouces.",
+      "brandId": 1,
+      "image": "tv-led-42.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Télévision OLED 55''",
+      "price": 999,
+      "description": "Expérience visuelle ultime avec la technologie OLED et une résolution 4K.",
+      "brandId": 2,
+      "image": "tv-oled-55.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Télévision QLED 65''",
+      "price": 1299,
+      "description": "Des couleurs éclatantes et une luminosité intense grâce au QLED.",
+      "brandId": 1,
+      "image": "tv-qled-65.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Télévision Plasma 50''",
+      "price": 499,
+      "description": "Image fluide et contraste exceptionnel avec cette TV Plasma 50 pouces.",
+      "brandId": 3,
+      "image": "tv-plasma-50.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Télévision LED 32''",
+      "price": 299,
+      "description": "Parfait pour les petites pièces, avec une qualité HD.",
+      "brandId": 4,
+      "image": "tv-led-32.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Télévision OLED 77''",
+      "price": 1999,
+      "description": "Une immersion totale avec cette télévision OLED 77 pouces ultra fine.",
+      "brandId": 2,
+      "image": "tv-oled-77.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Télévision Mini-LED 55''",
+      "price": 1099,
+      "description": "Technologie Mini-LED pour un meilleur contraste et une image ultra lumineuse.",
+      "brandId": 5,
+      "image": "tv-mini-led-55.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Télévision 8K 75''",
+      "price": 2999,
+      "description": "Profitez d'une définition 8K et d'une fluidité exceptionnelle.",
+      "brandId": 1,
+      "image": "tv-8k-75.jpg"
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Samsung"
+    },
+    {
+      "id": 2,
+      "name": "LG"
+    },
+    {
+      "id": 3,
+      "name": "Sony"
+    },
+    {
+      "id": 4,
+      "name": "Philips"
+    },
+    {
+      "id": 5,
+      "name": "TCL"
+    }
+  ]
+}

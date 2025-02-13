@@ -1,0 +1,18 @@
+
+<header class="header">
+  <nav class="nav">
+    <div class="logo">
+      <a routerLink="/">TV Showcase</a>
+    </div>
+    <div class="nav-links">
+      <ng-container *ngIf="!isLoggedIn; else loggedInTemplate">
+        <a routerLink="/signup">S'inscrire</a>
+        <a routerLink="/login">Se connecter</a>
+      </ng-container>
+      <ng-template #loggedInTemplate>
+        <span class="user-name">Bonjour, {{ userName }}</span>
+        <button (click)="logout()">Se déconnecter</button>
+      </ng-template>
+    </div>
+  </nav>
+</header>
