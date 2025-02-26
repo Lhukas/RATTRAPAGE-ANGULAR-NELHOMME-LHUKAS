@@ -28,7 +28,7 @@ export class HomeComponent implements OnInit {
   }
 
   getBrandName(brandId: number | undefined): string {
-    const brand = this.brands.find(b => b.id === brandId);
+    const brand = this.brands.find(b => b.id == brandId);
     return brand ? brand.name : 'Marque inconnue';
   }
 

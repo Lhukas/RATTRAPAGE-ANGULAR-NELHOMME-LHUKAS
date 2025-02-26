@@ -19,7 +19,7 @@ export class ProductDetailComponent implements OnInit {
     const productId = Number(this.route.snapshot.paramMap.get('id'));
 
     this.productService.getProducts().subscribe((products) => {
-      this.product = products.find(p => p.id === productId) || null;
+      this.product = products.find(p => p.id == productId) || null;
       if (this.product) {
         this.getBrandName(this.product.brandId);
       }
@@ -32,7 +32,7 @@ export class ProductDetailComponent implements OnInit {
 
   getBrandName(brandId: number | undefined): void {
     this.brandService.getBrands().subscribe((brands) => {
-      const brand = brands.find(b => b.id === brandId);
+      const brand = brands.find(b => b.id == brandId);
       this.brandName = brand ? brand.name : 'Marque inconnue';
     });
   }
